@@ -1,13 +1,16 @@
-✅ Project Title
+✅ Project Title:-
+
 Intune Duplicate Device Cleanup Script (Serial Number Based)
 
-✅ Short Description
+✅ Short Description:-
+
 Explain what the script does in 2–3 lines:
 PowerShell script to detect and safely clean duplicate Intune managed device records using Serial Number. 
 It keeps the latest device entry (based on lastSyncDateTime) and deletes only stale duplicates. 
 The script deletes Intune managedDevice records only and does NOT touch Entra ID device objects.
 
-✅ Features Section
+✅ Features Section:-
+
 Example:
 
 ✅ Detect duplicate Intune device records
@@ -17,14 +20,16 @@ Example:
 ✅ Does not delete Entra ID device objects
 ✅ Dry-run mode and live mode
 
-✅ Prerequisites
+✅ Prerequisites:-
+
 List required modules and permissions:
 - PowerShell 7.x  
 - Microsoft.Graph PowerShell SDK
 - Required Graph Permission:
    DeviceManagementManagedDevices.ReadWrite.All
 
-✅ How to Use (Instructions)
+✅ How to Use (Instructions):-
+
 Give steps:
 
 Clone repo
